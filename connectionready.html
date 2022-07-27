@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connection</title>
+    <link rel="stylesheet" href="connectionready.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="content">
+    <div class="left">
+       
+       <form action="connectionready.php" method="post" >
+       
+        <center><h1>Form CV </h1></center>
+        <center><p>remplier ce form</p></center>
+        <div class="champ">
+        <div class="name">
+            Name* <input type="text"name="name" id="name">
+            Prenom*<input type="text" name="prenom" id="prenom">
+        </div>
+        
+        <div class="adr">
+            Adresse*  <input type="text" placeholder="Rue 9999" name="adr" id="adr">
+            Numero tel*  <input type="text" name="tel" id="tel">
+        </div>
+        
+        <div class="mail">Adresse mail*<input type="text"name="mail" id="mail"></div>
+        
+        
+          <textarea id="story" name="story" rows="5" cols="69" id="story">Laisse un Messager 
+        </textarea>
+        
+        <div class="spec">Specialite*<input type="text"name="spec" id="spec"></div>
+
+        <div class="cv">Deposer votre CV*<input type="file" id="docpicker"
+          accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" name="cv" id="cv" ></div>
+         
+        
+
+
+        <div class="bt">
+        <center><input type="submit" name="submit" value="Envoyer "></center>
+        
+        </div>
+        </div>
+        </form>
+        
+    </div>
+    
+    <div class="right">
+        
+        
+        
+    </div>
+</div>  
+    
+    
+</body>
+</html>

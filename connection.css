@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+.content{
+    width: 100%;
+    height: 59vh;    
+  
+}
+
+
+
+
+.content .left{
+    width: 50%;
+    height: 100%;
+    background-color: #F7CCAC;
+    padding: 10%;
+    
+    
+    
+}
+
+.content .right{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 50%;
+    height: 100%;
+    background-image: url(cputr.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-size: 2.5em;
+    font-family: 'Staatliches', cursive;
+    color: #3A3845;
+
+}
+p{
+    padding-top: 3%;
+    font-size: 159%;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.content .left .mail {
+    
+    padding: 3% 5% 1% 5%;
+
+    
+}
+
+.content .left .mail input{
+    
+    padding: 1% 15% 1% 6%;
+    border: none;
+    background-color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    
+    
+}
+
+
+.content .left .pass input {
+    
+    margin-left: 4.8%;
+    padding: 1% 15% 1% 5%;
+    border-left: 1%;
+    background-color: #fdfdfd;
+    font-family: 'Noto Sans', sans-serif;
+    border: none;
+
+
+    
+}
+
+.content .left .bt input{
+    border: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2em;
+    padding:1% 12% 1% 12%;
+    transition: 0.5s;   
+    background-color: #E6D5B8;
+    color: #143e5f;
+    transition: 1s;
+    margin: 3% 0% 0% 5%
+}
+.content .left .bt input:hover{
+    
+    padding:1% 17% 1% 12%;
+    transition: 1s;    
+    cursor: pointer;
+    color: #7e0a0a;
+    background-color: rgb(230, 186, 111);
+    transition: 1s;
+
+    
+}

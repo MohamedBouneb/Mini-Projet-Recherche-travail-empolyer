@@ -1,0 +1,417 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    
+}
+/*---------------------------------------------------------------------------------first-section-------------------------------------------*/
+/*----------l partie loula ------------*/
+.first-section{
+    width: 100%;
+    height: 100vh;
+    background: url(work3mdf.png);
+    background-size: cover;
+  
+}
+header{
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 3%; 
+    
+}
+
+.logo img{
+    width: 24%;
+    height: 25%;
+    position: absolute;
+    left:55px;
+    top:20px;
+    position: fixed;
+}
+
+img{
+    position: absolute;
+    right: 65px;
+    width:250px;
+     
+}
+/*--------------l first section el partie limin--------------*/
+.first-section .right-content{
+    width: 50%;
+    height: 75%;
+}
+.first-section .right-content h1{
+    
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-size: 390%;
+    color: #1c0a00;
+    padding: 10%
+
+}
+
+.first-section .right-content a{
+    
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-size: 100%;
+    color: #7e0a0a;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color:rgba(180, 180, 180, 0.77);
+    
+
+}
+
+.first-section .right-content h2{
+    
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-size: 250%;
+    color: #d9d8d6;
+    padding-left: 16%;
+    
+
+}
+.first-section .left-content{
+    
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    
+    
+}
+
+.first-section .left-content .btns{
+    margin-top: 32%;
+    
+    
+    
+}
+
+/*-------------Btn 1 inscription--------------*/
+.first-section .left-content .btn1   {
+    
+    margin:10% 15% 10% 25%;
+    
+    
+}
+
+.first-section .left-content .btn1 input{
+    
+    border: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2em;
+    padding:4% 35% 4% 25%;
+    transition: 0.5s;   
+    background-color: #E6D5B8;
+    color: #143e5f;
+    
+}
+.first-section .left-content .btn1 input:hover{
+    
+    padding:4% 45% 4% 30%;
+    transition: 1s;    
+    cursor: pointer;
+    color: #7e0a0a;
+    background-color: rgb(230, 186, 111);
+
+
+    
+}
+
+/*------------end btn 1 inscription--------------*/
+
+
+/*------------btn 2 Connection-------------*/
+
+.first-section .left-content .btn2   {
+    
+    margin:10% 15% 10% 25%;
+    padding-bottom: 
+    
+
+}
+
+.first-section .left-content .btn2 input{
+    
+    border: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2em;
+    padding:4% 35% 4% 25%;
+    transition: 0.5s;   
+    background-color: #E6D5B8;
+    color: #143e5f;
+
+    
+
+    
+    
+}
+.first-section .left-content .btn2 input:hover{
+    
+    padding:4% 45% 4% 30%;
+    transition: 1s;    
+    cursor: pointer;
+    color: #7e0a0a;
+    background-color: rgb(230, 186, 111);
+
+
+    
+}
+
+/*----------- END-btn 2 Connection-------------*/
+
+
+/*-------------Nav bar--------------*/
+ul{
+    position: absolute;
+    top: 60px;
+    left: 980px;
+    position: fixed;
+}
+
+li {
+      float: right;
+     list-style-type: none;
+    
+}
+
+li a {    
+  display: block;
+  text-align: center;
+  padding: 28px 49px;
+  text-decoration: none;
+  color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    
+   
+}
+
+li a:hover{
+    color:#FEA500;
+    transition: 0.7s;
+    
+}
+
+/*--------------animation secend section--------------*/
+
+@keyframes an {
+  from {    background: url(work6.jpg);
+              background-size: cover;
+}
+  to {    background: url(work7.png);
+            background-size: cover;
+
+}
+}
+ /*-------------Secend section- LEFT------------*/
+
+.sec-section{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100vh;
+    background: url(work4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+
+}
+
+.sec-section .content{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    height: 70%;
+}
+.sec-section .content .left{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    animation: an 6s linear infinite alternate;
+
+
+}
+/*-------------Secend section--- LEFT----------*/
+
+.sec-section .content .right h2{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 2.5vw;
+    color: #603601;
+    padding: 4% 0% 2% 24%;
+}
+
+.sec-section .content .right{
+    
+    width: 50%;
+    height: 100%;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0%;
+    right: 0
+
+}
+
+.sec-section .content .right form{
+    
+   padding-left: 7%
+
+}
+
+/*------------Form Nom&prenom----------*/
+.sec-section .content .name {
+    
+    padding: 7% 10% 1% 10%;
+    
+}
+.sec-section .content .name input{
+    padding: 2%
+    
+    
+}
+/*--------END----Form Nom&prenom----------*/
+
+
+
+/*------------Form Email----------*/
+
+.sec-section .content .mail {
+    
+    padding: 1% 10% 1% 10%;
+    
+}
+.sec-section .content .mail input{
+    padding: 2% 41% 2% 5%;
+    
+    
+}
+/*---------EnD---Form Email----------*/
+
+/*------------Form mot de pass---------*/
+
+.sec-section .content .mdp{
+    
+    padding: 1% 10% 1% 10%;
+    
+}
+.sec-section .content .mdp input{
+    padding: 2% 41% 2% 5%;
+    
+    
+}
+
+/*------------Form DN--------*/
+
+.sec-section .content .dn{
+    
+    padding: 1% 10% 1% 10%;
+    
+}
+.sec-section .content .dn input{
+    padding: 2% 41% 2% 5%;
+    
+    
+}
+
+.bt input{
+    
+        padding: 2% 41% 2% 5%;
+        margin-left: 15%;
+
+}
+
+
+/*---------------------------------------------------------------------------------third-section-------------------------------------------*/
+
+.third-sec{
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    height: 51vh;
+    background: url(work580pourcent.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+
+.left{
+    width: 50%;
+    height: 50vh;
+}
+.right{
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    top: 6px;
+    right: 2;
+    
+}
+
+
+.left a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    padding: 0% 5% 0% 20%;
+    color: #e15f41;
+
+}
+.left p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    padding: 3% 18% 1% 20%;
+    color: white;
+    
+}
+.right a{
+    font-size: 2.7vw;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e15f41;
+    padding: 2% 5% 9% 2%;
+
+}
+.right .logo {
+    background-image: url(inversity%20of%20sousse%20LOGO.png);
+    background-size: cover;
+    background-color: aliceblue;
+    
+        
+    
+}
+.right .l{
+    width: 20%;
+    height: 25vh;
+    position: relative;
+    top: 10;
+    left: 20%
+}
+.right .ll{
+    width: 20%;
+    height: 25vh;
+    position: relative;
+    top: -140;
+    right: -60%
+}
+
+.right p a{
+    text-decoration: none;
+    position: relative;
+    top: 220px    
+    
+    
+}
+#btn4{
+    position: absolute;
+    top: 290px;
+    background-color: rgba(240, 248, 255, 0);
+    text-decoration: none;
+    border-radius: 20%;
+    
+}

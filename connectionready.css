@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;  
+    background-image: url(work6.jpg);
+    background-size: cover;
+  
+}
+
+
+
+
+.content .left{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: #F7CCAC;
+    opacity: 0.9;
+    
+}
+a{
+     font-size: 1.5em;
+    font-family: 'Staatliches', cursive;
+    color: #CC3300;
+    text-decoration: none;
+    padding: 4%;
+    transition: 1s;
+        
+}
+a:hover{
+     font-size: 1.5em;
+    font-family: 'Staatliches', cursive;
+    color: #290a00;
+    text-decoration: none;
+    padding: 4%;
+    transition: 1s;
+}
+
+
+h1,p{
+    font-size: 2.5em;
+    font-family: 'Staatliches', cursive;
+    color: #CC3300;
+
+}
+
+.content .left .champ{
+    padding-top: 3%;
+    padding-left: 30%;
+}
+
+.content .left .bt input{
+    border: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2em;
+    padding:1% 12% 1% 12%;
+    transition: 0.5s;   
+    background-color: #E6D5B8;
+    color: #143e5f;
+    transition: 1s;
+    margin: 3% 5% 0% -35%
+}
+.content .left .bt input:hover{
+    
+    padding:1% 17% 1% 12%;
+    transition: 1s;    
+    cursor: pointer;
+    color: #7e0a0a;
+    background-color: rgb(230, 186, 111);
+    transition: 1s;
+
+    
+}
+.content .left .name {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em;
+    color: #CC3300;
+}
+.content .left .name input{
+    border: none;
+    padding:7px 15px 2px 15px;
+}
+
+.content .left .adr {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em;
+    color: #CC3300;
+}
+.content .left .adr input{
+    border: none;
+    padding:7px 0px 2px 0px;
+}
+
+.content .left .mail {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em;
+    color: #CC3300;
+}
+.content .left .mail input{
+    border: none;
+    padding:7px 60px 2px 60px;
+}
+
+.content .left textarea{
+    margin-top: 1%;
+    border: none;
+    color: #CC3300;
+    font-family: 'Staatliches', cursive;
+}
+
+.content .left .spec {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em;
+    color: #CC3300;
+}
+.content .left .spec input{
+    border: none;
+    padding:7px 0px 2px 0px;
+}
+.content .left .cv {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em;
+    color: #CC3300;
+}
+.content .left .cv input{
+    border: none;
+    padding:7px 0px 2px 0px;
+}
